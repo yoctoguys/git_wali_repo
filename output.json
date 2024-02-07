@@ -1,0 +1,647 @@
+[
+  {
+    "column2": "Request For Quote",
+    "column3": "Request For Quote",
+    "column4": "Request For Quote",
+    "column5": "Quote Number",
+    "column6": 15,
+    "column8": "Buyer"
+  },
+  {
+    "column2": "Request For Quote",
+    "column3": "Request For Quote",
+    "column4": "Request For Quote",
+    "column5": "Quote Revision",
+    "column6": 2000,
+    "column8": "Supplier"
+  },
+  {
+    "column2": "Request For Quote",
+    "column3": "Request For Quote",
+    "column4": "Request For Quote",
+    "column5": "Quote Date",
+    "column6": "fasdfadfad",
+    "column8": "Calculation"
+  },
+  {
+    "column1": "2275 S. Main Street",
+    "column2": "Request For Quote",
+    "column3": "Request For Quote",
+    "column4": "Request For Quote",
+    "column5": "ODTR NUMBER:",
+    "column6": "adfadfadfadsf",
+    "column8": "System"
+  },
+  {
+    "column1": "Paris, IL 61944"
+  },
+  {
+    "column3": "Supplier Information"
+  },
+  {
+    "column1": "Supplier Code:",
+    "column2": 1234,
+    "column3": 1234,
+    "column4": "Supplier Contact: ",
+    "column5": "anuj",
+    "column6": "anuj"
+  },
+  {
+    "column1": "Mfg. Address:",
+    "column3": null,
+    "column4": "Contact Phone:",
+    "column5": "This is the main this to be added dfddsfasdfads+",
+    "column6": "This is the main this to be added dfddsfasdfads+"
+  },
+  {
+    "column1": "Mfg. City / State:",
+    "column2": "fgsdfgsdfgsdfg",
+    "column3": "fgsdfgsdfgsdfg",
+    "column4": "Contact Email:",
+    "column5": "this is the main this to be added dfddsfasdfads",
+    "column6": "this is the main this to be added dfddsfasdfads"
+  },
+  {
+    "column1": "Mfg. Country:",
+    "column3": null,
+    "column4": "Commodity:",
+    "column5": "Electronics",
+    "column6": "Electronics"
+  },
+  {
+    "column3": "Part Information"
+  },
+  {
+    "column1": "Program:",
+    "column2": "J34A",
+    "column3": "J34A",
+    "column4": "Plant:",
+    "column5": "sdfgsdfgsdfgsdfgsdf",
+    "column6": "sdfgsdfgsdfgsdfgsdf"
+  },
+  {
+    "column1": "NAL Part Number:",
+    "column2": "10009-8N027",
+    "column3": "10009-8N027",
+    "column4": "Part Description:",
+    "column5": "dasdfasdfasdf",
+    "column6": "dasdfasdfasdf"
+  },
+  {
+    "column1": "Revision Level:",
+    "column2": "sdfgsdfgsdfgsdffg",
+    "column3": "sdfgsdfgsdfgsdffg",
+    "column4": "Revision Date:",
+    "column5": "afasdfas",
+    "column6": "afasdfas"
+  },
+  {
+    "column1": "NAL Target SOP:",
+    "column2": "2024-03-15T00:00:00.000Z",
+    "column3": "2024-03-15T00:00:00.000Z",
+    "column4": "Target EOP:",
+    "column5": "2027-01-15T00:00:00.000Z",
+    "column6": "2027-01-15T00:00:00.000Z"
+  },
+  {
+    "column1": "Year",
+    "column2": {
+      "formula": "IF(B17=\"\",1,YEAR(B17))"
+    },
+    "column3": {
+      "formula": "B19+1"
+    },
+    "column4": {
+      "formula": "C19+1"
+    },
+    "column5": {
+      "formula": "D19+1"
+    },
+    "column6": {
+      "formula": "E19+1"
+    }
+  },
+  {
+    "column1": "Components",
+    "column2": {
+      "formula": "SUM('Components and Materials'!$L:$L)"
+    },
+    "column3": {
+      "formula": "B20"
+    },
+    "column4": {
+      "formula": "C20"
+    },
+    "column5": {
+      "formula": "D20"
+    },
+    "column6": {
+      "formula": "E20"
+    }
+  },
+  {
+    "column1": "Manufacturing",
+    "column2": {
+      "formula": "SUM('Manufacturing ELEC '!$K:$K)"
+    },
+    "column3": {
+      "formula": "B21"
+    },
+    "column4": {
+      "formula": "C21"
+    },
+    "column5": {
+      "formula": "D21"
+    },
+    "column6": {
+      "formula": "E21"
+    }
+  },
+  {
+    "column1": "Packaging",
+    "column2": {
+      "formula": "SUM(Packaging!$H:$H)"
+    },
+    "column3": {
+      "formula": "B22"
+    },
+    "column4": {
+      "formula": "C22"
+    },
+    "column5": {
+      "formula": "D22"
+    },
+    "column6": {
+      "formula": "E22"
+    }
+  },
+  {
+    "column1": "Freight",
+    "column2": {
+      "formula": "SUM(Freight!$G:$G)"
+    },
+    "column3": {
+      "formula": "SUM(Freight!$G:$G)"
+    },
+    "column4": {
+      "formula": "SUM(Freight!$G:$G)"
+    },
+    "column5": {
+      "formula": "SUM(Freight!$G:$G)"
+    },
+    "column6": {
+      "formula": "SUM(Freight!$G:$G)"
+    }
+  },
+  {
+    "column1": "SG&A & Profit",
+    "column2": {
+      "formula": "((B20+B21+B22+B23)*0.1)"
+    },
+    "column3": {
+      "formula": "((C20+C21+C22+C23)*0.1)"
+    },
+    "column4": {
+      "formula": "((D20+D21+D22+D23)*0.1)"
+    },
+    "column5": "a",
+    "column6": {
+      "formula": "((F20+F21+F22+F23)*0.1)"
+    }
+  },
+  {
+    "column1": "Calculated APR",
+    "column2": 0,
+    "column3": {
+      "formula": "(-(B26-$F$50)*C27)"
+    },
+    "column4": {
+      "formula": "(-(C26-$F$50)*D27)"
+    },
+    "column5": {
+      "formula": "(-(D26-$F$50)*E27)"
+    },
+    "column6": {
+      "formula": "(-(E26-$F$50)*F27)"
+    }
+  },
+  {
+    "column1": "Contract Price",
+    "column2": {
+      "formula": "ROUND(SUM(B20:B25),4)"
+    },
+    "column3": {
+      "formula": "ROUND(SUM(C20:C25,B25),4)"
+    },
+    "column4": {
+      "formula": "ROUND(SUM(D20:D25,B25,C25),4)"
+    },
+    "column5": {
+      "formula": "ROUND(SUM(E20:E25,B25,C25,D25),4)"
+    },
+    "column6": {
+      "formula": "ROUND(SUM(F20:F25,B25,C25,D25,E25),4)"
+    }
+  },
+  {
+    "column1": "APR",
+    "column2": 0,
+    "column3": {
+      "formula": "IFERROR(VLOOKUP($F$53,'Data Validation'!$AH$3:$AI$10,2,FALSE),0)"
+    },
+    "column4": {
+      "formula": "IFERROR(VLOOKUP($F$53,'Data Validation'!$AH$3:$AI$10,2,FALSE),0)"
+    },
+    "column5": {
+      "formula": "IFERROR(VLOOKUP($F$53,'Data Validation'!$AH$3:$AI$10,2,FALSE),0)"
+    },
+    "column6": 0
+  },
+  {
+    "column1": "LH Piece Volume",
+    "column2": 234316,
+    "column3": 293355,
+    "column4": 318956,
+    "column5": 33151
+  },
+  {
+    "column1": "RH Piece Volume"
+  },
+  {
+    "column1": "Total Piece Volume",
+    "column2": {
+      "formula": "SUM(B28:B29)"
+    },
+    "column3": {
+      "formula": "SUM(C28:C29)"
+    },
+    "column4": {
+      "formula": "SUM(D28:D29)"
+    },
+    "column5": {
+      "formula": "SUM(E28:E29)"
+    },
+    "column6": {
+      "formula": "SUM(F28:F29)"
+    }
+  },
+  {
+    "column1": "Total Cost",
+    "column2": {
+      "formula": "IF(B26=\"\",\"\",IFERROR(B26*B30,0))"
+    },
+    "column3": {
+      "formula": "IF(C26=\"\",\"\",IFERROR(C26*C30,0))"
+    },
+    "column4": {
+      "formula": "IF(D26=\"\",\"\",IFERROR(D26*D30,0))"
+    },
+    "column5": {
+      "formula": "IF(E26=\"\",\"\",IFERROR(E26*E30,0))"
+    },
+    "column6": {
+      "formula": "IF(F26=\"\",\"\",IFERROR(F26*F30,0))"
+    }
+  },
+  {
+    "column3": "Volume Review"
+  },
+  {
+    "column1": "Year",
+    "column2": {
+      "formula": "B19"
+    },
+    "column3": {
+      "formula": "C19"
+    },
+    "column4": {
+      "formula": "D19"
+    },
+    "column5": {
+      "formula": "E19"
+    },
+    "column6": {
+      "formula": "F19"
+    }
+  },
+  {
+    "column1": "Projected Daily LH Volume",
+    "column2": {
+      "formula": "ROUNDUP(B28/((52-WEEKNUM(B17))*5),0)"
+    },
+    "column3": {
+      "formula": "ROUNDUP(C28/240,0)"
+    },
+    "column4": {
+      "formula": "ROUNDUP(D28/240,0)"
+    },
+    "column5": {
+      "formula": "ROUNDUP(E28/240,0)"
+    },
+    "column6": {
+      "formula": "ROUNDUP(F28/240,0)"
+    }
+  },
+  {
+    "column1": "Projected Daily RH Volume",
+    "column2": {
+      "formula": "ROUNDUP(B29/((52-WEEKNUM(B17))*5),0)"
+    },
+    "column3": {
+      "formula": "ROUNDUP(C29/240,0)"
+    },
+    "column4": {
+      "formula": "ROUNDUP(D29/240,0)"
+    },
+    "column5": {
+      "formula": "ROUNDUP(E29/240,0)"
+    },
+    "column6": {
+      "formula": "ROUNDUP(F29/240,0)"
+    }
+  },
+  {
+    "column1": "Projected Daily Total Piece Volume",
+    "column2": {
+      "formula": "ROUNDUP(B30/((52-WEEKNUM(B17))*5),0)"
+    },
+    "column3": {
+      "formula": "ROUNDUP(C30/240,0)"
+    },
+    "column4": {
+      "formula": "ROUNDUP(D30/240,0)"
+    },
+    "column5": {
+      "formula": "ROUNDUP(E30/240,0)"
+    },
+    "column6": {
+      "formula": "ROUNDUP(F30/240,0)"
+    }
+  },
+  {
+    "column1": "Projected Weekly LH Volume",
+    "column2": {
+      "formula": "B35*5"
+    },
+    "column3": {
+      "formula": "C35*5"
+    },
+    "column4": {
+      "formula": "D35*5"
+    },
+    "column5": 7777848411,
+    "column6": {
+      "formula": "F35*5"
+    }
+  },
+  {
+    "column1": "Projected Weekly RH Volume",
+    "column2": {
+      "formula": "B36*5"
+    },
+    "column3": {
+      "formula": "C36*5"
+    },
+    "column4": {
+      "formula": "D36*5"
+    },
+    "column5": {
+      "formula": "E36*5"
+    },
+    "column6": {
+      "formula": "F36*5"
+    }
+  },
+  {
+    "column1": "Projected Weekly Total Piece Volume",
+    "column2": {
+      "formula": "B37*5"
+    },
+    "column3": {
+      "formula": "C37*5"
+    },
+    "column4": {
+      "formula": "D37*5"
+    },
+    "column5": {
+      "formula": "E37*5"
+    },
+    "column6": {
+      "formula": "F37*5"
+    }
+  },
+  {
+    "column1": "Safety Stock Requirement",
+    "column2": {
+      "formula": "IF($F$52=\"Domestic\",B35*2,IF($F$52=\"International\",B35*20,\"\"))"
+    },
+    "column3": "Safety Stock Completion Date:",
+    "column4": "Safety Stock Completion Date:",
+    "column5": {
+      "formula": "IF(B17=\"\",\"Missing SOP Date\",B17-30)",
+      "result": "1970-01-01T05:30:00.000Z"
+    },
+    "column6": {
+      "formula": "IF(B17=\"\",\"Missing SOP Date\",B17-30)",
+      "result": "1970-01-01T05:30:00.000Z"
+    }
+  },
+  {
+    "column3": "Safety Stock Requirements ( 3 Months Pre-Production + 60 Days Production)"
+  },
+  {
+    "column1": "Completion Date",
+    "column2": {
+      "formula": "IF(B28=\"\",\"\",B17-90)",
+      "result": "1970-01-01T05:30:00.000Z"
+    },
+    "column3": {
+      "formula": "IF(B44=\"\",\"\",B44+30)",
+      "result": "1970-01-01T05:30:00.000Z"
+    },
+    "column4": {
+      "formula": "IF(C44=\"\",\"\",C44+30)",
+      "result": "1970-01-01T05:30:00.000Z"
+    },
+    "column5": {
+      "formula": "IF(B17=\"\",\"\",B17)",
+      "result": "1970-01-01T05:30:00.000Z"
+    },
+    "column6": {
+      "formula": "IF(B28=\"\",\"\",B17+60)",
+      "result": "1970-01-01T05:30:00.000Z"
+    }
+  },
+  {
+    "column1": "Safety Stock LH Piece Requirement",
+    "column2": {
+      "formula": "IF(F52=\"\",0,IF(OR(F52=\"International\",F52=\"International (Molded)\"),$C$38,C35))"
+    },
+    "column3": {
+      "formula": "IF(F52=\"\",0,IF(OR($F$52=\"International\",$F$52=\"International (Molded)\"), $C$38,$C$35))"
+    },
+    "column4": {
+      "formula": "IF(F52=\"\",0,IF(OR($F$52=\"International\",F52=\"International (Molded)\"), $C$38*2,$C$35*2))"
+    },
+    "column5": {
+      "formula": "IF(F52=\"\",0,IF(OR($F$52=\"International\",F52=\"International (Molded)\"), $C$38*4,$C$35*2))"
+    },
+    "column6": {
+      "formula": "IF(F52=\"\",0,IF(OR($F$52=\"International\",F52=\"International (Molded)\"), $C$38*4,$C$35*2))"
+    }
+  },
+  {
+    "column1": "Safety Stock RH Piece Requirement",
+    "column2": {
+      "formula": "IF(F52=\"\",0,IF(OR(F52=\"International\",F52=\"International (Molded)\"),$C$39,C36))"
+    },
+    "column3": {
+      "formula": "IF(F52=\"\",0,IF(OR($F$52=\"International\",$F$52=\"International (Molded)\"), $C$39,$C$36))"
+    },
+    "column4": {
+      "formula": "IF(F52=\"\",0,IF(OR($F$52=\"International\",F52=\"International (Molded)\"), $C$39*2,$C$36*2))"
+    },
+    "column5": {
+      "formula": "IF(F52=\"\",0,IF(OR($F$52=\"International\",F52=\"International (Molded)\"), $C$39*4,$C$36*2))"
+    },
+    "column6": {
+      "formula": "IF(F52=\"\",0,IF(OR($F$52=\"International\",F52=\"International (Molded)\"), $C$39*4,$C$36*2))"
+    }
+  },
+  {
+    "column1": "Safety Stock Total Piece Requirement",
+    "column2": {
+      "formula": "IF(F52=\"\",0,IF(OR(F52=\"International\",F52=\"International (Molded)\"),$C$40,C37))"
+    },
+    "column3": {
+      "formula": "IF(F52=\"\",0,IF(OR($F$52=\"International\",$F$52=\"International (Molded)\"), $C$40,$C$37))"
+    },
+    "column4": {
+      "formula": "IF(F52=\"\",0,IF(OR($F$52=\"International\",F52=\"International (Molded)\"), $C$40*2,$C$37*2))"
+    },
+    "column5": {
+      "formula": "IF(F52=\"\",0,IF(OR($F$52=\"International\",F52=\"International (Molded)\"), $C$40*4,$C$37*2))"
+    },
+    "column6": {
+      "formula": "IF(F52=\"\",0,IF(OR($F$52=\"International\",F52=\"International (Molded)\"), $C$40*4,$C$37*2))"
+    }
+  },
+  {
+    "column1": "Tooling (Non-Amortized)",
+    "column2": {
+      "formula": "SUM('Tooling Cost Detail'!H:H)"
+    },
+    "column4": "Tool Ownership"
+  },
+  {
+    "column4": "LED Total Cost",
+    "column6": {
+      "formula": "SUMIF('Components and Materials'!F:F,\"LED\",'Components and Materials'!L:L)"
+    }
+  },
+  {
+    "column4": "LED Cost Year",
+    "column6": 2024
+  },
+  {
+    "column1": " Total Program Cost",
+    "column2": {
+      "formula": "SUM(B49,B31:F31)"
+    },
+    "column4": "Manufacturing Location Category",
+    "column6": "International"
+  },
+  {
+    "column4": "Supplier Type",
+    "column6": "Electronics"
+  },
+  {
+    "column1": "Item",
+    "column2": "Status",
+    "column4": "Supplier Last Audit Date"
+  },
+  {
+    "column1": "Summary",
+    "column2": {
+      "formula": "IF(SUM(C56:C62)=0,\"Complete\",\"Incomplete\")"
+    },
+    "column3": {
+      "formula": "IF(B55=\"Incomplete\",1,0)"
+    }
+  },
+  {
+    "column1": "Components",
+    "column2": {
+      "formula": "IF('Components and Materials'!$N$1=\"\",\"Incomplete\",'Components and Materials'!$N$1)"
+    },
+    "column3": {
+      "formula": "IF(B56=\"Incomplete\",1,0)"
+    },
+    "column4": "First Parts - M1 Date"
+  },
+  {
+    "column1": "Manufacturing",
+    "column2": {
+      "formula": "IF('Manufacturing ELEC '!$K$1=\"\",\"Incomplete\",'Manufacturing ELEC '!$K$1)"
+    },
+    "column3": {
+      "formula": "IF(B57=\"Incomplete\",1,0)"
+    },
+    "column4": "HVPT Date"
+  },
+  {
+    "column1": "Tooling",
+    "column2": {
+      "formula": "IF('Tooling Cost Detail'!$J$1=\"\",\"Incomplete\",'Tooling Cost Detail'!$J$1)"
+    },
+    "column3": {
+      "formula": "IF(B58=\"Incomplete\",1,0)"
+    },
+    "column4": "PPAP Date"
+  },
+  {
+    "column1": "PCB Details",
+    "column2": {
+      "formula": "IF('PCB Details'!$AD$1=\"\",\"Incomplete\",'PCB Details'!$AD$1)"
+    },
+    "column3": {
+      "formula": "IF(B59=\"Incomplete\",1,0)"
+    }
+  },
+  {
+    "column1": "Packaging",
+    "column2": {
+      "formula": "IF(Packaging!$I$1=\"\",\"Incomplete\",Packaging!$I$1)"
+    },
+    "column3": {
+      "formula": "IF(B60=\"Incomplete\",1,0)"
+    },
+    "column4": "Quote Rev Level Notes"
+  },
+  {
+    "column1": "Freight",
+    "column2": {
+      "formula": "IF(Freight!$G$1=\"\",\"Incomplete\",Freight!$G$1)"
+    },
+    "column3": {
+      "formula": "IF(B61=\"Incomplete\",1,0)"
+    },
+    "column5": null,
+    "column6": null
+  },
+  {
+    "column1": "Terms and Conditions",
+    "column2": {
+      "formula": "IF('Terms and Conditions'!$B$1=\"\",\"Incomplete\",'Terms and Conditions'!$B$1)"
+    },
+    "column3": {
+      "formula": "IF(B62=\"Incomplete\",1,0)"
+    },
+    "column4": null,
+    "column5": null,
+    "column6": null
+  },
+  {
+    "column1": "NAL - Electronics - Request for Quote - Rev (Draft 01.03.2024)"
+  }
+]
