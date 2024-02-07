@@ -24,3 +24,42 @@ index b11a12d..110d6f5 100755
 +# git push -u origin main
  git log > log.log
  
+diff --git a/log.log b/log.log
+index ca45834..7c767ca 100644
+--- a/log.log
++++ b/log.log
+@@ -1,3 +1,9 @@
++commit 0cf09c608e9c0e2605a26ce8645d94600a9bed93
++Author: yoctoguys <pokyyocto@gmail.com>
++Date:   Wed Feb 7 16:07:57 2024 +0530
++
++    Update JSON data from Excel file
++
+ commit 50bef098fe354caa45f522a269848a1ab3dff597
+ Author: yoctoguys <pokyyocto@gmail.com>
+ Date:   Wed Feb 7 15:49:03 2024 +0530
+diff --git a/run.sh b/run.sh
+index 110d6f5..7a8902c 100755
+--- a/run.sh
++++ b/run.sh
+@@ -1,8 +1,18 @@
+ #!/bin/bash
++
++# Run Node.js script for JSON processing
+ node main_json.js
+-git diff > diff.log
++
++# Export Git diff to a file and append to diff.log
++git diff >> diff.log
++
++# Add all changes to the Git staging area
+ git add .
++
++# Commit changes with a message
+ git commit -m "Update JSON data from Excel file"
++
+ # git push -u origin main
+-git log > log.log
+ 
++# Export Git log to a file and append to log.log
++git log >> log.log
